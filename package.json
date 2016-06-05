@@ -1,0 +1,24 @@
+{
+  "name": "testando_ionic",
+  "version": "1.0.0",
+  "description": "Repository created for code of tests with ionic framework.",
+  "main": "index.html",
+  "dependencies": {
+    "ionic": "^1.7.15",
+    "cordova": "^6.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/testes-e-mais-testes/testando_ionic.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/testes-e-mais-testes/testando_ionic/issues"
+  },
+  "homepage": "https://github.com/testes-e-mais-testes/testando_ionic#readme"
+}
