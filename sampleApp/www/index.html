@@ -1,49 +1,83 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
-    <title></title>
 
-    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+  <title></title>
 
-    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+  <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
     <link href="css/ionic.app.css" rel="stylesheet">
     -->
 
-    <!-- ionic/angularjs js -->
-    <script src="lib/ionic/js/ionic.bundle.js"></script>
+  <!-- ionic/angularjs js -->
+  <script src="lib/ionic/js/ionic.bundle.js"></script>
 
-    <!-- cordova script (this will be a 404 during development) -->
-    <script src="cordova.js"></script>
+  <!-- cordova script (this will be a 404 during development) -->
+  <script src="cordova.js"></script>
 
-    <!-- your app's js -->
-    <script src="js/app.js"></script>
-    <script src="js/controllers.js"></script>
-    <script src="js/services.js"></script>
-  </head>
-  <body ng-app="starter">
-    <div class="bar bar-header bar-positive">
-      <h1 class="title">testing ionic</h1>
+  <!-- your app's js -->
+  <script src="js/app.js"></script>
+  <script src="js/controllers.js"></script>
+  <script src="js/services.js"></script>
+</head>
+
+<body ng-app="starter">
+
+  <div class="bar bar-header bar-positive">
+    <h1 class="title">testing ionic</h1>
+  </div>
+
+  <ion-content class="has-header">
+
+    <h1>Lorem ipsum</h1>
+
+    <p>dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
+      consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis
+      dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem.
+      Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit
+      litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.</p>
+
+    <div class="list">
+
+      <a class="item item-icon-left" href="#">
+        <i class="icon ion-email"></i> Check mail
+      </a>
+
+      <a class="item item-icon-left item-icon-right" href="#">
+        <i class="icon ion-chatbubble-working"></i> Call Ma
+        <i class="icon ion-ios-telephone-outline"></i>
+      </a>
+
+      <a class="item item-icon-left" href="#">
+        <i class="icon ion-mic-a"></i> Record album
+        <span class="item-note">
+      Grammy
+    </span>
+      </a>
+
+      <a class="item item-icon-left" href="#">
+        <i class="icon ion-person-stalker"></i> Friends
+        <span class="badge badge-assertive">10</span>
+      </a>
+
     </div>
-    <ion-content class="has-header">
-      <button class="button button-energized">
-        button-energized
-      </button>
-    </ion-content>
-    <!--
-    <!--  The nav bar that will be updated as we navigate between views.-->
-    <!---->-->
-    <!--<ion-nav-bar class="bar-stable">-->
-    <!--  <ion-nav-back-button>-->
-    <!--  </ion-nav-back-button>-->
-    <!--</ion-nav-bar>-->
-    <!--
-    <!--  The views will be rendered in the <ion-nav-view> directive below-->
-    <!--  Templates are in the /templates folder (but you could also-->
-    <!--  have templates inline in this html file if you'd like).-->
-    <!---->-->
-    <!--<ion-nav-view></ion-nav-view>-->
-  </body>
+
+    <hr>
+
+    <button class="button button-energized">
+      button-energized
+    </button>
+    
+  </ion-content>
+
+  <div class="bar bar-footer bar-balanced">
+    <div class="title">Footer</div>
+  </div>
+
+</body>
+
 </html>
